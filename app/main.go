@@ -43,6 +43,6 @@ func main() {
 			os.Exit(1)
 		}
 
-		handleConn(conn)
+		go handleConn(conn)
 	}
 }
